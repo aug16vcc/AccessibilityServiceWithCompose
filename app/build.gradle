@@ -4,7 +4,8 @@ plugins {
 }
 
 android {
-    namespace 'com.aug16vcc.app'
+    namespace 'com.aug16vcc'
+    buildToolsVersion = "33.0.1"
     compileSdk 33
 
     defaultConfig {
