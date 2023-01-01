@@ -9,12 +9,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AccessiblityServiceWithCompose"
+        android:theme="@style/Theme.AccessibilityServiceWithCompose"
         tools:targetApi="31">
         <activity
             android:name=".app.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AccessiblityServiceWithCompose">
+            android:theme="@style/Theme.AccessibilityServiceWithCompose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

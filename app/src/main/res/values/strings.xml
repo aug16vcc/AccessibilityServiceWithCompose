@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AccessiblityServiceWithCompose</string>
+    <string name="app_name">AccessibilityServiceWithCompose</string>
+    <string name="service_label_bounding_service">Bounding overlay service</string>
 </resources>
