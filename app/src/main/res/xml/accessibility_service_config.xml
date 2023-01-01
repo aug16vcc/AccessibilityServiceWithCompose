@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
-    android:accessibilityEventTypes="typeViewTextChanged|typeViewFocused|typeWindowContentChanged|typeWindowStateChanged|typeWindowsChanged|typeViewScrolled|typeAnnouncement"
+    android:accessibilityEventTypes="typeWindowContentChanged|typeWindowStateChanged|typeWindowsChanged|typeViewScrolled|typeAnnouncement"
     android:canPerformGestures="true"
     android:canRetrieveWindowContent="true"
     android:description="@string/service_label_bounding_service" />

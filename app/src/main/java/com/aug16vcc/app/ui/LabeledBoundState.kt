@@ -7,5 +7,5 @@ import androidx.compose.ui.geometry.Rect
 data class LabeledBoundState(
     val index: Int,
     val rect: Rect,
-    val isSelected: Boolean,
+    val isHighlighted: Boolean,
 )

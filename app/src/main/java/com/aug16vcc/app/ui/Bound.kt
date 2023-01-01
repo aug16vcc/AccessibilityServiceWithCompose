@@ -31,7 +31,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.accessibilityservice.LocalStatusBarHeight
+import androidx.compose.ui.platform.LocalStatusBarHeight
 import kotlin.math.max
 
 @Composable
@@ -110,7 +110,7 @@ internal fun PreviewLabeledBound() {
                         56f, 64f
                     )
                 ),
-                isSelected = true
+                isHighlighted = true
             ),
         )
     }

@@ -11,8 +11,8 @@ import android.view.WindowManager
 import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.platform.LocalStatusBarHeight
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewTreeLifecycleOwner
@@ -66,8 +66,6 @@ private fun getStatusBarHeightPx(wm: WindowManager) = wm.maximumWindowMetrics
     .windowInsets
     .getInsetsIgnoringVisibility(WindowInsets.Type.statusBars())
     .top
-
-val LocalStatusBarHeight = staticCompositionLocalOf { 0 }
 
 @SuppressLint("DiscouragedApi", "InternalInsetResource")
 private fun getStatusBarHeightPx(resources: Resources): Int {
